@@ -1,6 +1,5 @@
-var WeatherToken = artifacts.require("./WeatherToken.sol");
-var WeatherCrowdsale = artifacts.require("./WeatherCrowdsale.sol");
-// require('moment')
+var TemplateToken = artifacts.require("./TemplateToken.sol");
+var TemplateCrowdsale = artifacts.require("./TemplateCrowdsale.sol");
 
 const duration = {
     seconds: function (val) { return val; },
@@ -12,8 +11,8 @@ const duration = {
 };
 
 module.exports = async function(deployer, network, accounts) {
-    await deployer.deploy(WeatherToken, "Weather Token", "WRT", 18);
-    const deployToken = await WeatherToken.deployed();
+    await deployer.deploy(TemplateToken, "Template Token", "WRT", 18);
+    const deployToken = await TemplateToken.deployed();
     console.log(deployToken.address);
 
     const rate = 1000; // 1 eth = 1000 WRT Tokens
@@ -25,8 +24,8 @@ module.exports = async function(deployer, network, accounts) {
     const goal = web3.toWei(20);
 
     console.log('HAHAHAH');
-    await deployer.deploy(WeatherCrowdsale,rate, wallet, deployToken.address, openingTime, closingTime, cap, goal);
-    const deployCrowdsale = await WeatherCrowdsale.deployed();
+    await deployer.deploy(TemplateCrowdsale,rate, wallet, deployToken.address, openingTime, closingTime, cap, goal);
+    const deployCrowdsale = await TemplateCrowdsale.deployed();
     console.log('aaaa', deployCrowdsale.address);
     await deployToken.transferOwnership(deployCrowdsale.address);
     console.log("Contracts Deployed: \n",deployCrowdsale.address, deployToken.address);

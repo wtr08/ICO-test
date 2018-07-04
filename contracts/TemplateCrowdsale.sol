@@ -10,7 +10,7 @@ import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 interface MintableERC20 {
     function finishMinting() public returns (bool);
 }
-contract WeatherCrowdsale is Crowdsale, TimedCrowdsale, CappedCrowdsale, RefundableCrowdsale, MintedCrowdsale{
+contract TemplateCrowdsale is Crowdsale, TimedCrowdsale, CappedCrowdsale, RefundableCrowdsale, MintedCrowdsale{
 
     bool public isFinalized = false;
     event Finalized();
