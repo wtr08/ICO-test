@@ -1,5 +1,5 @@
-var WeatherToken = artifacts.require("./WeatherToken.sol");
-var WeatherCrowdsale = artifacts.require("./WeatherCrowdsale.sol");
+var WeatherToken = artifacts.require("WeatherToken.sol");
+var WeatherCrowdsale = artifacts.require("WeatherCrowdsale.sol");
 // require('moment')
 
 const duration = {
@@ -12,23 +12,27 @@ const duration = {
 };
 
 module.exports = async function(deployer, network, accounts) {
-    await deployer.deploy(WeatherToken, "Weather Token", "WRT", 18);
-    const deployToken = await WeatherToken.deployed();
-    console.log(deployToken.address);
+    deployer.then(async function(){
+        await deployer.deploy(WeatherToken, "Weather Token", "WRT", 18);
+        const deployToken = await WeatherToken.deployed();
+        console.log(deployToken.address);
 
-    const rate = 1000; // 1 eth = 1000 WRT Tokens
-    const wallet = accounts[0];
-    const timeNow = Math.floor(Date.now()/1000);
-    const openingTime =  timeNow + duration.seconds(30);
-    const closingTime = timeNow + duration.years(1);
-    const cap = web3.toWei(100);
-    const goal = web3.toWei(20);
+        const rate = 1000; // 1 eth = 1000 WRT Tokens
+        const wallet = accounts[0];
+        const timeNow = Math.floor(Date.now()/1000);
+        const openingTime =  timeNow + duration.seconds(30);
+        const closingTime = timeNow + duration.years(1);
+        const cap = web3.toWei(100);
+        // const goal = web3.toWei(20);
 
-    console.log('HAHAHAH');
-    await deployer.deploy(WeatherCrowdsale,rate, wallet, deployToken.address, openingTime, closingTime, cap, goal);
-    const deployCrowdsale = await WeatherCrowdsale.deployed();
-    console.log('aaaa', deployCrowdsale.address);
-    await deployToken.transferOwnership(deployCrowdsale.address);
-    console.log("Contracts Deployed: \n",deployCrowdsale.address, deployToken.address);
-    return true;
+        console.log('HAHAHAH');
+        await deployer.deploy(WeatherCrowdsale,rate, wallet, deployToken.address, openingTime, closingTime, cap);
+        const deployCrowdsale = await WeatherCrowdsale.deployed();
+        console.log('ddd');
+
+        console.log('bbbb', deployCrowdsale.address);
+        await deployToken.transferOwnership(deployCrowdsale.address);
+        console.log("Contracts Deployed: \n",deployCrowdsale.address, deployToken.address);
+        return true;
+    });
 };

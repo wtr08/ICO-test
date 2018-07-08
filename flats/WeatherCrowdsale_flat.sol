@@ -703,6 +703,8 @@ contract TimedCrowdsale is Crowdsale {
 
 // File: contracts/WeatherCrowdsale.sol
 
+//import 'openzeppelin-solidity/contracts/crowdsale/distribution/RefundableCrowdsale.sol';
+
 //import "openzeppelin-solidity/contracts/crowdsale/distribution/FinalizableCrowdsale.sol";
 
 
@@ -713,6 +715,9 @@ contract WeatherCrowdsale is Crowdsale, TimedCrowdsale, CappedCrowdsale, MintedC
 
     bool public isFinalized = false;
     event Finalized();
+
+    event EthTransferred(string text);
+    event EthRefunded(string text);
 
     constructor
     (
@@ -728,7 +733,6 @@ contract WeatherCrowdsale is Crowdsale, TimedCrowdsale, CappedCrowdsale, MintedC
     CappedCrowdsale(_cap)
     public
     {
-
     }
 
     function finalize() public {

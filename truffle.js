@@ -22,23 +22,28 @@ const infuraProvider = network => providerWithMnemonic(
 const providerWithMnemonic = (mnemonic, rpcEndpoint) =>
     new HDWalletProvider(mnemonic, rpcEndpoint);
 
+const mnemonic = "poa is awesome";
+const infura_apikey = "k5sTkvpaIFsZ5lGkCoh8";
 
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
     networks: {
         development: {
-            host: "127.0.0.1",
-            port: 7545,
+            host: "localhost",
+            port: 8545,
             network_id: '*',
-            // gas: 2000000,   // <--- Twice as much
-            // gasPrice: 10000000000,
+        },
+        ropsten: {
+            provider: new HDWalletProvider(mnemonic, "https://ropsten.infura.io/"+infura_apikey),
+            network_id: 3,
+            gas: 4700000,
         },
         kovan: {
-            provider: infuraProvider('kovan'),
-            network_id: "42",
-            gasPrice: 1000000000
-        },
+            provider: new HDWalletProvider(mnemonic, "https://kovan.infura.io/"+infura_apikey),
+            network_id: 42,
+            gas:  2123456
+        }
     },
     solc: {
         optimizer: {

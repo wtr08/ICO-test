@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21364730-90ba-4cbc-bbde-d5140174906d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dotenv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/BasicToken.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/CappedCrowdsale.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/Crowdsale.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/DetailedERC20.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/ERC20.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/ERC20Basic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/FinalizableCrowdsale.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/Migrations.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/MintableERC20.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/MintableToken.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/MintedCrowdsale.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/Ownable.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/SafeMath.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/StandardToken.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/TimedCrowdsale.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/WeatherCrowdsale.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/WeatherToken.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts/WeatherCrowdsale.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/WeatherCrowdsale.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flats/WeatherCrowdsale_flat.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flats/WeatherToken_flat.sol" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/migrations/2_deploy_ico.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/2_deploy_ico.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -45,11 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="truffle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/truffle.js">
+      <file leaf-file-name="2_deploy_ico.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/migrations/2_deploy_ico.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="792">
+              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherCrowdsale_flat.sol" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flats/WeatherCrowdsale_flat.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="333" selection-start-line="333" selection-end-line="333" />
             </state>
           </provider>
         </entry>
@@ -57,44 +49,35 @@
       <file leaf-file-name="WeatherCrowdsale.sol" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contracts/WeatherCrowdsale.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="768">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2_deploy_ico.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/migrations/2_deploy_ico.js">
+      <file leaf-file-name="RefundableCrowdsale.sol" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/openzeppelin-solidity/contracts/crowdsale/distribution/RefundableCrowdsale.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="1608">
+              <caret line="67" column="24" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherCrowdsale_flat.sol" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flats/WeatherCrowdsale_flat.sol">
+      <file leaf-file-name="truffle-config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/truffle-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
-              <caret line="5" column="18" lean-forward="true" selection-end-line="748" />
+            <state relative-caret-position="240">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="truffle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/truffle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crowdsale_entoend.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/crowdsale_entoend.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="672">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -106,6 +89,10 @@
       <find>solc</find>
       <find>capreached</find>
       <find>validatepurchase</find>
+      <find>goal</find>
+      <find>kov</find>
+      <find>fund</find>
+      <find>forwardFunds</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,11 +107,11 @@
         <option value="$PROJECT_DIR$/migrations/1_initial_migration.js" />
         <option value="$PROJECT_DIR$/dotenv.js" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/contracts/WeatherCrowdsale.sol" />
-        <option value="$PROJECT_DIR$/truffle.js" />
-        <option value="$PROJECT_DIR$/test/crowdsale_entoend.test.js" />
-        <option value="$PROJECT_DIR$/migrations/2_deploy_ico.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/test/crowdsale_entoend.test.js" />
+        <option value="$PROJECT_DIR$/truffle.js" />
+        <option value="$PROJECT_DIR$/contracts/WeatherCrowdsale.sol" />
+        <option value="$PROJECT_DIR$/migrations/2_deploy_ico.js" />
       </list>
     </option>
   </component>
@@ -144,9 +131,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="3840" />
-    <option name="height" value="2160" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-527" />
+    <option name="y" value="-922" />
+    <option name="width" value="1440" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -159,28 +148,23 @@
         <subPane>
           <expand>
             <path>
-              <item name="ICO-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICO-test" type="462c0819:PsiDirectoryNode" />
+              <item name="openZeppelin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openZeppelin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ICO-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICO-test" type="462c0819:PsiDirectoryNode" />
+              <item name="openZeppelin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openZeppelin" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openZeppelin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openZeppelin" type="462c0819:PsiDirectoryNode" />
               <item name="contracts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ICO-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICO-test" type="462c0819:PsiDirectoryNode" />
+              <item name="openZeppelin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openZeppelin" type="462c0819:PsiDirectoryNode" />
               <item name="flats" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ICO-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICO-test" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ICO-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICO-test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,7 +181,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,6 +195,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="5" BundledDictionary0="css.dic" BundledDictionary1="less.dic" BundledDictionary2="jetbrains.dic" BundledDictionary3="vue.dic" BundledDictionary4="english.dic" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -228,27 +213,36 @@
       <workItem from="1530604029947" duration="532000" />
       <workItem from="1530605548440" duration="7592000" />
       <workItem from="1530618654909" duration="3313000" />
+      <workItem from="1530624547734" duration="711000" />
+      <workItem from="1530625345558" duration="158000" />
+      <workItem from="1530625551522" duration="1409000" />
+      <workItem from="1530633423073" duration="644000" />
+      <workItem from="1530634302487" duration="2352000" />
+      <workItem from="1530716280602" duration="22000" />
+      <workItem from="1530716321974" duration="148000" />
+      <workItem from="1531059249203" duration="5938000" />
+      <workItem from="1531074423007" duration="613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23945000" />
+    <option name="totallyTimeSpent" value="35940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="-527" y="-922" width="1440" height="922" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.21070014" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.21000704" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
-      <window_info anchor="bottom" id="Floobits" order="7" />
+      <window_info anchor="bottom" id="Floobits" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5092461" />
-      <window_info id="Favorites" order="2" sideWeight="0.5014663" side_tool="true" weight="0.13879709" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2739394" />
+      <window_info id="Favorites" order="3" sideWeight="0.5014663" side_tool="true" weight="0.13879709" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -258,6 +252,27 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Floobits" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5090909" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="3" sideWeight="0.5014663" side_tool="true" weight="0.13879709" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.21000704" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -266,8 +281,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/truffle-config.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/test/crowdsale_entoend.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/migrations/2_deploy_ico.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -297,9 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/truffle-config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/migrations/2_deploy_ico.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -328,13 +351,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/contracts/Migrations.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32952">
-          <caret line="1373" column="17" selection-start-line="1373" selection-start-column="13" selection-end-line="1373" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/contracts/Migrations.json" />
     <entry file="file://$PROJECT_DIR$/migrations/1_initial_migration.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -377,13 +394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/contracts/Migrations.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32952">
-          <caret line="1373" column="17" selection-start-line="1373" selection-start-column="13" selection-end-line="1373" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/contracts/Migrations.json" />
     <entry file="file://$PROJECT_DIR$/migrations/1_initial_migration.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -433,13 +444,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/contracts/Migrations.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32952">
-          <caret line="1373" column="17" selection-start-line="1373" selection-start-column="13" selection-end-line="1373" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/contracts/Migrations.json" />
     <entry file="file://$PROJECT_DIR$/contracts/Migrations.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -494,13 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/contracts/Migrations.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1373" column="17" selection-start-line="1373" selection-start-column="13" selection-end-line="1373" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/contracts/Migrations.json" />
     <entry file="file://$PROJECT_DIR$/flatten.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -508,20 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/truffle-config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flats/WeatherToken_flat.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -532,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/openzeppelin-solidity/contracts/crowdsale/distribution/RefundableCrowdsale.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/openzeppelin-solidity/contracts/crowdsale/validation/CappedCrowdsale.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -546,13 +528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.env" />
     <entry file="file://$PROJECT_DIR$/node_modules/openzeppelin-solidity/contracts/crowdsale/distribution/utils/RefundVault.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60" />
@@ -565,45 +541,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/truffle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/WeatherCrowdsale.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/crowdsale_entoend.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/2_deploy_ico.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flats/WeatherCrowdsale_flat.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="5" column="18" lean-forward="true" selection-end-line="748" />
+        <state relative-caret-position="24">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="48">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flats/WeatherToken_flat.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-end-line="408" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truffle-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truffle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/openzeppelin-solidity/contracts/crowdsale/distribution/RefundableCrowdsale.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1608">
+          <caret line="67" column="24" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/WeatherCrowdsale.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/2_deploy_ico.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flats/WeatherCrowdsale_flat.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
         </state>
       </provider>
     </entry>
