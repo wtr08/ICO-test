@@ -20,7 +20,9 @@ module.exports = async function(deployer, network, accounts) {
         const rate = 5; // 1 eth = 5 Template Tokens
         const wallet = accounts[0];
         const timeNow = Math.floor(Date.now()/1000);
-        const openingTime =  moment().unix();
+        const openingTime =  moment()
+            .add(2, "minutes")
+            .unix();
         console.log(openingTime);
         const closingTime = moment()
             .add(10, "weeks")
